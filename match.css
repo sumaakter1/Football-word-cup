@@ -149,3 +149,24 @@ body {
   color: #b9b9b9;
   padding-right: 50px;
 }
+.socials {
+  display: flex;
+  margin-top: 30px;
+  list-style: none;
+}
+.socials li {
+  margin: 0 40px;
+}
+.socials a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.socials a i {
+  font-size: 30px;
+
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+.socials a:hover i {
+  background-color: #fcb900;
+}
