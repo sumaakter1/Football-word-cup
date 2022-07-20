@@ -5,7 +5,7 @@ body {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
-/* introduction footboll */
+/* introduction football */
 
 .introduction-football {
   height: 550px;
@@ -91,7 +91,7 @@ body {
   border: 3px solid #ffffff;
   color: #ffffff;
 }
-/* football-updates */
+/* live football updates */
 .football-updates {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -176,15 +176,4 @@ body {
 }
 .socials a:hover i {
   background-color: #fcb900;
-}
-/* media quaries */
-
-/* mobile device */
-@media only screen and (min-width: 689px) and (max-width: 992px) {
-  .football-updates {
-    width: 100%;
-  }
-  .updates {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
