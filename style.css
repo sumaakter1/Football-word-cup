@@ -103,6 +103,10 @@ body {
   border: 1px solid #ffffff;
   border-radius: 10px;
   box-shadow: 0px 0px 7px 0 gray;
+  transition: 1s;
+}
+.updates:hover {
+  transform: scale(0.9);
 }
 .updates img {
   width: 270px;
