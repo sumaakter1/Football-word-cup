@@ -52,7 +52,7 @@ body {
   width: 503px;
   height: 530px;
 }
-
+/* littlebox */
 /* articles  */
 .articles {
   display: flex;
@@ -84,52 +84,45 @@ body {
   font-weight: 500;
   text-align: center;
 }
-.page-link .blog-button {
+.page-link .match-button {
   background-color: #fcb900;
 }
-.page-link .blog-button:active {
+.page-link .match-button:active {
   border: 3px solid #ffffff;
   color: #ffffff;
 }
-/* football-updates */
-.football-updates {
+/* upcoming match  */
+.articles {
+  display: flex;
+  margin: 111px 69px;
+}
+.upcoming-matchs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 270px;
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
+  gap: 25px;
 }
-.updates {
-  border: 1px solid #ffffff;
+.upcoming-match {
+  width: 240px;
+  height: 150px;
+  border: 1px solid rgb(233, 233, 233);
   border-radius: 10px;
-  box-shadow: 0px 0px 7px 0 gray;
+  padding: 35px 20px;
 }
-.updates img {
-  width: 270px;
-}
-.second-style-button {
-  background-color: white;
-  padding: 5px 10px;
-  border: 1px solid #161616;
-  border-radius: 5px;
-  font-weight: 600;
-}
-.update {
-  padding: 10px 15px;
-}
-.update h3 {
+.upcoming-match .flog {
+  display: flex;
+  justify-content: space-between;
   color: #161616;
+}
+.match-duration h3 {
+  color: #161616;
+  word-spacing: 10px;
+}
+.match-duration p {
+  color: #4d4d4d;
   font-size: 14px;
-  line-height: 27px;
 }
-
-.update-detail {
-  color: rgba(22, 22, 22, 0.7);
-  word-spacing: 7px;
-  font-size: 15px;
-}
-.update span {
-  padding-right: 20px;
+.match-duration {
+  text-align: center;
 }
 /* footer  */
 .footer-content {
@@ -155,36 +148,4 @@ body {
   text-decoration: none;
   color: #b9b9b9;
   padding-right: 50px;
-}
-.socials {
-  display: flex;
-  margin-top: 30px;
-  list-style: none;
-}
-.socials li {
-  margin: 0 40px;
-}
-.socials a {
-  text-decoration: none;
-  color: #ffffff;
-}
-.socials a i {
-  font-size: 30px;
-
-  border-radius: 20px;
-  transition: background-color 0.5s ease-in-out;
-}
-.socials a:hover i {
-  background-color: #fcb900;
-}
-/* media quaries */
-
-/* mobile device */
-@media only screen and (min-width: 689px) and (max-width: 992px) {
-  .football-updates {
-    width: 100%;
-  }
-  .updates {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
