@@ -42,6 +42,7 @@ body {
   transform: translate(10px, 12px);
   padding: 18px 35px;
   font-size: 17px;
+  color: #161616;
   background-color: white;
   border: 3px solid #fcb900;
   cursor: pointer;
@@ -168,4 +169,12 @@ body {
 }
 .socials a i {
   font-size: 30px;
+
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.socials a:hover i {
+  /* font-size: 40px; */
+  color: #161616;
+  background: #ffffff;
 }
